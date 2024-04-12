@@ -1,0 +1,38 @@
+.body {
+    background: linear-gradient(100deg,  #AD88C6, #E1AFD1);
+    height: 100vh; /* Ensure the gradient covers the entire viewport height */
+    margin: 0; /* Remove default body margin */
+    display: flex; /* Ensure content is centered vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+
+.card{
+    width: 30%;
+    padding: 1rem;
+}
+.rem{
+    display: flex; 
+    /* align-items: center; */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 100vh;
+    
+}
+.input-group{
+    margin-top: 1rem;
+}
+
+.heading{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.btn-color{
+    background-color: #9e77c3;
+    color: white;
+}
